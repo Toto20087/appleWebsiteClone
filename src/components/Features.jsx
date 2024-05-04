@@ -27,7 +27,12 @@ const Features = () => {
     );
     animateWithGsap(
       '.g_text',
-      {y:0, opacity: 1,ease: 'power2.inOut',duration: 1}
+      {
+        y:0, 
+        opacity: 1,
+        ease: 'power2.inOut',
+        duration: .5
+      }
     )
   }, []);
 
